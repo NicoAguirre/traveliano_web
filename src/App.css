@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  background-color: #ffffff;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* App.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 100% de la altura de la ventana */
+   
+}
+
+.content {
+  display: flex;
+  flex: 1;
 }

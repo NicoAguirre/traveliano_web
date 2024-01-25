@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+/*.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #386975;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }*/
+  .navbar{
+    top: 0;
+    left: 200px;
+    right: 0px;
+    background-color: #386975;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: absolute;
+    transition: width 0.3s ease;
+  }
+  /* Otros estilos adicionales */
+
+
+  .navbar {
+    transition: width 0.3s ease; /* Agrega una transición para el ancho del navbar */
+  }
+  
+  .navbar.expanded {
+    left: 0px; /* Ancho del navbar cuando el sidebar está abierto */
+  }
+
+  .navbar-toggle {
+    cursor: pointer;
+    font-size: 1.5rem;
+    float: left;
+  }
+  
+  .user-profile-navbar {
+    display: flex;
+    align-items: center;
+    float: right;
+  }
+  
+  .user-icon {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }

@@ -1,0 +1,56 @@
+/* Sidebar.css */
+.sidebar {
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #386975;
+    color: #fff;
+    box-sizing: border-box;
+    z-index: 1;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+  }
+
+  .sidebar.open {
+    width: 200px; 
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+  
+  .user-details {
+    
+  }
+  
+  .sidebar-links {
+    list-style: none;
+  }
+  
+  .sidebar-links li {
+    cursor: pointer;
+    margin: 20px;
+    transition: color 0.3s;
+  }
+  
+  .sidebar-links li:hover {
+    color: #f00;
+  }
+  .user-icon {
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    height: 40px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* Para obtener una imagen circular */
+    margin-left: 10px;
+  }
